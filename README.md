@@ -64,13 +64,13 @@ To view any of the projects locally, follow these steps:
    ```bash
    git clone https://github.com/your-username/Generations-Bootcamp-Projects.git
 
-2. Contributing
+## Contributing
 If you wish to contribute to this repository, please follow these guidelines:
 
 Fork the repository.
-Create a new branch.
-Make your changes.
-Submit a pull request.
+- Create a new branch.
+- Make your changes.
+- Submit a pull request.
 
 ## License
 This repository is licensed under the MIT License. See the LICENSE file for details.

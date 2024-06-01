@@ -1,0 +1,18 @@
+/* style.css */
+h1 {
+  color: green; /* Make all H1 elements green */
+}
+
+.blue {
+  color: blue; /* Make elements with class "blue" blue */
+}
+
+#red {
+  color: red; /* Make the element with ID "red" red */
+}
+
+/* style.css */
+img {
+  max-width: 100%;
+  height: auto;
+}

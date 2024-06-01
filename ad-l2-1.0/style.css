@@ -1,0 +1,65 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #ffcc00;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 3em;
+}
+
+header p {
+  font-size: 1.2em;
+}
+
+main {
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 2em;
+  color: #333;
+}
+
+h3 {
+  font-size: 1.5em;
+  color: #0066cc;
+  cursor: pointer;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  font-size: 1.2em;
+  margin: 5px 0;
+}
+
+ul li span {
+  color: #cc0000;
+  cursor: pointer;
+}
+
+.burger-image {
+  width: 300px;
+  display: block;
+  margin: 0 auto;
+}
+
+.red-text {
+  color: red;
+}

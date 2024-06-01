@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 7</title>
+</head>
+<body>
+    <ul id="numberList"></ul>
+
+    <script>
+        // JavaScript code for Task 7
+        let numbers = [2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97];
+        let buzzWords = [
+            "Fizz",
+            "Buzz",
+            "Woof",
+            "Bark",
+            "Awoo",
+            "Bang"
+        ];
+
+        let numberList = document.getElementById("numberList");
+
+        numbers.forEach(number => {
+            let isPrime = true;
+
+            for (let i = 2; i < number; i++) {
+                if (number % i === 0) {
+                    isPrime = false;
+                    break;
+                }
+            }
+
+            if (isPrime && number % 2 !== 0) {
+                let li = document.createElement("li");
+                li.textContent = buzzWords[(number - 1) / 2];
+                numberList.appendChild(li);
+            } else {
+                let li = document.createElement("li");
+                li.textContent = number;
+                numberList.appendChild(li);
+            }
+        });
+    </script>
+</body>
+</html>

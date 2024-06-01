@@ -1,0 +1,52 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+}
+
+.navbar {
+  background-color: #343a40 !important;
+}
+
+.navbar .navbar-brand, .navbar .nav-link {
+  color: #ffffff !important;
+}
+
+header {
+  background-image: url('https://via.placeholder.com/1500x500');
+  background-size: cover;
+  background-position: center;
+}
+
+.container {
+  padding: 20px;
+}
+
+button {
+  background-color: #ffc107;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #e0a800;
+}
+
+form {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form .form-label {
+  font-weight: bold;
+}
+
+footer {
+  text-align: center;
+  padding: 10px 0;
+  background-color: #343a40;
+  color: white;
+}
